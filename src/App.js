@@ -4,7 +4,6 @@ import CartDrawer from './components/cartDrawer.js';
 import Header from './components/header.js';
 import ProductsGrid from './components/productsGrid.js';
 import { useState, useEffect } from 'react';
-// require('dotenv').config()
 
 const SHOP = process.env.REACT_APP_SHOPIFY_SHOP;
 const ACCESS_TOKEN = process.env.REACT_APP_SHOPIFY_ACCESS_TOKEN;
